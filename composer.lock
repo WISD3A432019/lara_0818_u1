@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d3250c14ba9f2eb57c4ab8468dbe462",
+    "content-hash": "f6e22c09a63affd7b276e5a6f89f64ae",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1394,6 +1394,67 @@
                 "web artisan"
             ],
             "time": "2017-12-18T04:46:34+00:00"
+        },
+        {
+            "name": "recca0120/upload",
+            "version": "v1.6.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/recca0120/upload.git",
+                "reference": "1e9766b9c5feab08551424b74cf86965641c6427"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/recca0120/upload/zipball/1e9766b9c5feab08551424b74cf86965641c6427",
+                "reference": "1e9766b9c5feab08551424b74cf86965641c6427",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/filesystem": "^5.1",
+                "illuminate/http": "^5.1",
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "^1.6",
+                "mockery/mockery": "~0.9.4",
+                "nesbot/carbon": "~1.20",
+                "phpunit/phpunit": "~4.8|~5.4|~6.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Recca0120\\Upload\\UploadServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Recca0120\\Upload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "recca0120",
+                    "email": "recca0120@gmail.com"
+                }
+            ],
+            "description": "Ajax Upload Large File Support jQuery-File-Upload, FileApi, Plupload, Support framework Laravel 5",
+            "keywords": [
+                "ajax",
+                "chunk",
+                "fileapi",
+                "jquery-file-upload",
+                "jquery-fileapi",
+                "laravel",
+                "plupload",
+                "upload"
+            ],
+            "time": "2017-08-18T01:54:15+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
