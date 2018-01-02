@@ -10,7 +10,8 @@
         "laravel/framework": "5.5.*",
         "laravel/tinker": "~1.0",
         "recca0120/laravel-tracy": "^1.8",
-        "recca0120/upload": "^1.6"
+        "recca0120/upload": "^1.6",
+        "simplesoftwareio/simple-qrcode": "~2",
     },
     "require-dev": {
         "filp/whoops": "~2.0",
