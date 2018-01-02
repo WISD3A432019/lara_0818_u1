@@ -4,7 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 
-class checkage
+class CheckAge
 {
     /**
      * Handle an incoming request.
@@ -15,6 +15,12 @@ class checkage
      */
     public function handle($request, Closure $next)
     {
+        if($request->age <= 20)
+        {     
+        return redirect('home');
+        }
+        
         return $next($request);
+    
     }
 }
